@@ -58,14 +58,14 @@
     margin-top: calc(
         var(--screen-height)/5 - var(--avatar-image-size)/2);
     
-    border: calc(var(--avatar-image-size) / 50) solid var(--primary-color);
-    box-shadow: 0 0 0.3em 0.3em var(--secondary-color);
+    /* border: calc(var(--avatar-image-size) / 50) solid var(--primary-color);
+    box-shadow: 0 0 0.3em 0.3em var(--secondary-color); */
 }
 
 
 /* NU APARE AFTER EFFECT??? */
 
-/* .profile-avatar::after{
+ .profile-avatar::after{
     content: "";
     display: block;
     position: absolute;
@@ -75,7 +75,7 @@
     z-index: -1;
     box-shadow: 0 0 0.3em 0.3em var(--secondary-color);
     border-radius: 100%;
-} */
+}
 
 .profile-basic-info a{
     color: var(--ligher-color);
