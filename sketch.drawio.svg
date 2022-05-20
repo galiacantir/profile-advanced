@@ -1,0 +1,16 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="402px" height="369px" viewBox="-0.5 -0.5 402 369" content="&lt;mxfile&gt;&lt;diagram id=&quot;7a2HCOUf5rfgjy6zlfGd&quot; name=&quot;Pagina-1&quot;&gt;7ZfBjpswEIafhuvK2NiEYzfdbC+VKuXQswteQAsYGSeQPn0NNhAD2aQNqnLYHBL8MzPG34zHwUHbvHkVtEy+84hlDgRR46CvDoQEeOq7FU5aQNjXQizSSEvuKOzT38yIwKiHNGKVZSg5z2Ra2mLIi4KF0tKoELy2zd54Zs9a0pjNhH1Is7n6M41kotUN9Ef9G0vjpJ/ZJYG+84uG77Hgh8LM50BEyDPc7fTtnPaxzEKrhEa8PpPQi4O2gnOpr/Jmy7IWbY9N++0u3B2eW7BC3uJg8lTJU790FikSZljwQv08JzLP1MhVl9q8tbk4oZEqfhChsULDylTBMJ4zKU7KRLCMyvRoh6ImdfFgN7j+4KmaBAJTZXBjIJoi2/TV04eQVMRMGq8Rgro4e4xR6tAsY0I68JFmB9YndsKtSzpr7YHiVCepZPuSdgRqtUeWMB6ZkKz5GOScWu9A7NV7PY16LFjoGS05K1ZEwGXSFqMPgODrQJSD2q7sOgxalXoPv6VNC3AVOgG26GAwp+P6C3QG8R465MHpQDyhg/CMDl6Ag1dg46+8lQSXqonwQg0DsBIez3+aAArg0xwRwQuI8P2INjeUTxF9ac+5sUlHtEo6Zq7Np5KCv7Mtz7joXBHoPn/Ry+ecbiyTO/s7nnQ4Aiblp4+YWX+fBfK8K4HWOyhc9zN3S8h9+I+5mxbBLNCKuXvAUx6CSekGC+cYWcijt0Krdr3HB+J7/xPIo//tgf6EzkK5wAU40011Axw1HF9T9G4bXwXRyx8=&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(102, 178, 255);">
+    <defs/>
+    <g>
+        <path d="M 120 360 L 120 336.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 120 331.12 L 123.5 338.12 L 120 336.37 L 116.5 338.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="0" y="0" width="240" height="360" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <ellipse cx="120" cy="105" rx="85" ry="85" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <ellipse cx="120" cy="80" rx="25" ry="25" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <rect x="87.5" y="112.5" width="65" height="55" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(90,120,140)" pointer-events="all"/>
+        <path d="M 400 120 L 280 120" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 280 240 L 400 240" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <rect x="40" y="210" width="160" height="40" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <rect x="40" y="260" width="160" height="40" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <ellipse cx="120" cy="320" rx="10" ry="10" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+    </g>
+</svg>

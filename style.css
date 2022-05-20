@@ -1,0 +1,247 @@
+
+.page-profile{
+    /* these variables will be available only inside the profile container */
+    font-family: 'Montserrat', sans-serif;
+    background-color:var(--muted-color);
+
+    /* + hw2.1. add a google gustom font here;
+       + hw2.2. use font awesome icon instead af +;
+       hw2.3. use pseudoelements and filter to make
+       the avatar shadow darker;
+    -  */
+    --avatar-image-size: 40vmin;
+    /* --screen-height: 100vh; */
+    --screen-height: 100%;
+
+
+    --primary-color: #6F7372;
+    --secondary-color: #010D00;
+    --muted-color: #A4A6A5;
+    --light-color: #D8E6F2;
+    --ligher-color:#F2F2F0;
+}
+
+.page-profile::after{
+    content: "";
+    display: block;
+    /* background-color: var(--primary-color); */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    z-index: -2;
+
+}
+.profile-basic-info{
+    text-align: center;
+    color: var(--ligher-color);
+    margin-bottom: 20px;
+
+}
+
+.profile-basic-info h1{
+    color: var(--secondary-color);
+    margin: 30px 0;
+}
+
+.profile-avatar{
+    border-radius: 100%;
+    
+    /* width: 80%;
+    top: 30% */
+    width: var(--avatar-image-size);
+    position: relative;
+    
+    /* img width = 0.8 * section width = main width = body width = window width*/
+    /* top: 1/3rd -> center */
+    margin-top: calc(
+        var(--screen-height)/5 - var(--avatar-image-size)/2);
+    
+    border: calc(var(--avatar-image-size) / 50) solid var(--primary-color);
+    box-shadow: 0 0 0.3em 0.3em var(--secondary-color);
+}
+
+
+/* NU APARE AFTER EFFECT??? */
+
+/* .profile-avatar::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: var(--avatar-image-size);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 0 0 0.3em 0.3em var(--secondary-color);
+    border-radius: 100%;
+} */
+
+.profile-basic-info a{
+    color: var(--ligher-color);
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--primary-color);
+    width: 1em;
+    height: 1em;
+    padding: 1em;
+    border-radius: 100%;
+    
+    font-weight: bold;
+    font-size: 80%;
+    position: relative;
+}
+
+.profile-basic-info a:hover{
+    filter: brightness(120%);
+}
+
+.profile-basic-info a::after{
+     content: "";
+     display: block;
+     /* background-color: red; */
+     width: 3em;
+     height: 3em;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     box-shadow: 0 0 0.3em 0.3em var(--secondary-color);
+     filter: brightness(20%);
+     border-radius: 100%;
+ }
+
+.profile-additional-info h1{
+    text-align: center;
+    color: var(--ligher-color);
+    
+}
+
+/*------ ALBUM -------*/
+div{
+    display: block;
+}
+
+#info{
+    transition: 0.9s;
+    overflow: hidden;
+    height: 0;
+}
+
+#info:target{
+    height: auto;
+    
+}
+
+.carousel {
+    width: 840px;
+    background-color: var(--muted-color);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0 0 5px 2px #111;
+}
+
+/* .carousel #right:target .slide {
+    transform: translateX(-1680px);
+} */
+.carousel .slide {
+    width: 2550px;
+    /* border: 3px solid red; */
+    transition: 1s;
+}
+
+.carousel img {
+    margin-right: -4px;
+}
+
+.carousel .controls {
+    text-align: center;
+    margin: 10px 5px 12px 5px;
+}
+
+.carousel .controls::before {
+    content: "◀";
+    color: var(--secondary-color);
+}
+.carousel .controls::after {
+    content: "▶";
+    color: var(--secondary-color);
+}
+
+.carousel .controls a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    /* border: 1px solid var(--secondary-color); */
+    border-radius: 50%;
+}
+
+/* ------CONTACT FORM ------- */
+
+.contact-form{
+    background-color: var(--muted-color);
+    margin: 20px 0;
+    /* padding: 20px; */
+    font-size: 90%;
+    /* bottom: 30%; */
+    right: 25%;
+    left: 25%;
+    z-index: 1;
+    text-align: center;
+    /* transition: 0.7s;
+    overflow: hidden;
+    height: 0; */
+}
+
+.contact-form label{
+    display: block;
+    color: var(--secondary-color);
+}
+
+.contact-form input {
+    padding: 12px;
+    width: 500px;
+    margin: 10px 25px;
+    border-radius: 5px;
+    border:none;
+}
+
+.contact-form input:focus{
+    outline: none;
+    background-color: var(--light-color);
+}
+
+.contact-form button{
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 524px;
+    text-transform: uppercase;
+    color:whitesmoke;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cum fac sa dispara butonul cand se deschide contact form? */
+
+
+/* CSS media queries */
+
+
+@media(orientation: landscape){
+
+    .page-profile{
+        --avatar-image-size: 50vmin;
+    }
+    .profile-avatar{
+    margin-top: calc( --screen-height/10);
+}
+}
+
+
